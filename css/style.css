@@ -1,0 +1,65 @@
+/* FONTES */
+/*@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');*/ 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
+      /*TEXTOS: font-family: 'Baloo 2', cursive;*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Arial';
+  font-size: 25px;
+  text-align:center;
+}
+
+h6{
+  /* TEXTO ALTERADO POR ESPECÍFICOS*/
+}
+
+p{
+  font-family: 'Baloo 2', cursive;
+  color: white;
+}
+
+/* CANVAS */
+#phaser-div{
+  margin: 50px;
+  text-align: center; 
+}
+
+/* TEXT FORMAT CANVAS */
+#container{
+  width: 45%;
+  margin: auto;
+  padding: 10px;
+}
+
+/* RODAPÉ */
+footer{
+  background-color: #FFBF9B;
+  border-radius: 30px 30px 0 0;
+  text-align: center;
+}
+
+footer img {
+  object-fit: cover;
+  border-radius: 50%;
+  /*margin: 20px 10px;*/
+  width: 75px;
+  height: 75px;
+}
+
+footer img:hover{
+  filter: grayscale(1);
+}
+
+#rodapeTxt{
+  font-family: 'Baloo 2', cursive;
+  font-weight:bold;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  margin: 35px 25px 0 30px;
+}
