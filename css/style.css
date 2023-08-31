@@ -1,28 +1,41 @@
 /* FONTES */
-/*@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');*/ 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
       /*TEXTOS: font-family: 'Baloo 2', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+      /* font-family: 'Roboto', sans-serif; */
 
 *{
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  font-family: 'Arial';
-  font-size: 25px;
+body{
+  background-color: #FFFFFC;
+}
+
+.header{
+  margin-top: 30px;
   text-align:center;
 }
 
-/*
-h6{
-  TEXTO ALTERADO POR ESPECÍFICOS
-}*/
+h1 {
+  font-size: 40px;
+  font-family: 'Baloo 2', cursive;
+  font-weight: bold;
+}
 
+h2{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #F40076;
+}
+
+/* 
 p{
   font-family: 'Baloo 2', cursive;
   color: white;
-}
+} */
 
 /* CANVAS */
 #phaser-div{
@@ -38,24 +51,66 @@ p{
 }
 
 /* RODAPÉ */
-footer{
-  background-color: #FFBF9B;
+footer > .container{
+  background-color: #36827F;
   border-radius: 30px 30px 0 0;
+  padding: 25px 30px;
+
   text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  /* position: fixed;
+  bottom: 0; */
 }
 
-footer img {
+.desenvolvedora{
+  background-color: #F40076;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.desenvolvedora > img{
+  width: 200px;
+  height: 230px;
   object-fit: cover;
-  border-radius: 50%;
-  /*margin: 20px 10px;*/
-  width: 75px;
-  height: 75px;
+  border-radius: 15px;
+  cursor:pointer;
 }
 
-footer img:hover{
+.desenvolvedora > img:hover{
   filter: grayscale(1);
 }
 
+.socials > a > img{
+  height: 40px;
+  width: 40px;
+}
+
+.desenvolvedora > h2{
+  color:#F6EAF3;
+}
+
+.textoSobreNos{
+  width: 500px;
+}
+
+.textoSobreNos > h3{
+  font-size: 20px;
+  color: #FFFFFC;
+  font-family: 'Baloo 2', cursive;
+}
+
+.textoSobreNos > p{
+  color: #F6EAF3;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 
 #rodapeTxt{
   font-family: 'Baloo 2', cursive;
   font-weight:bold;
@@ -63,4 +118,4 @@ footer img:hover{
   color: white;
   text-align: center;
   margin: 35px 25px 0 30px;
-}
+} */
