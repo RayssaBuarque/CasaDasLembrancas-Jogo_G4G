@@ -1,0 +1,62 @@
+@media screen and (max-width:1125px){
+    h1{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    nav{
+        gap: 200px;
+    }
+}
+
+@media screen and (max-width:800px){
+    h1{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    
+    nav{
+        gap: 30px;
+    }
+    
+    nav img{
+        height: 50px;
+    }
+    
+    .navegacao{
+        gap: 20px;
+    }
+    
+    /* SOBRE NÓS */
+    .textoSobreNos > p{
+        font-size: 16px;
+    }
+
+    .desenvolvedora > img{
+        height: 225px;
+        width: 175px;
+    }
+
+    .desenvolvedora > h2{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .socials img{
+        height: 35px;
+    }
+
+    .container{
+        gap: 20px;
+    }
+
+    .container > a > img{
+        height: 75px;
+    }
+}

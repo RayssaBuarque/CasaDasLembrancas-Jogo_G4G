@@ -5,6 +5,7 @@
     <title>Casa das lembranças - Games4Good 2021</title>
 
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style-responsive.css"/>
 
     <!--Implementando o Phaser-->
     <script src="https://cdn.jsdelivr.net/gh/leonyoung1/game-lib/phaser.js"></script>
@@ -31,71 +32,42 @@
 
   <body>
 
-    <div class="header">
-      <div class="titulo">
+    <nav>
+      <div id="info-projeto">
+        <a target="_blank" src="https://blogs.oracle.com/oracle-brasil/post/estudantes-de-sao-paulo-participam-do-oracle-games4good">
+          <img src="assets/Games4Good.png" alt="Games4Good logo">
+        </a>
         <h1>Casa das Lembranças</h1>
       </div>
-  
-      <div class="subtitulo">
-        <h2>Games4Good - 2021</h2>
+
+
+      <div class="navegacao">
+        <a href="">
+          <h3 class="secao">Jogar</h3>
+        </a>
+        <a href="html/sobre.html">
+          <h3 class="secao">Sobre nós</h3>
+        </a>
+      </div>
+    </nav>
+
+    
+    <!--Canvas do Game-->
+    <div id="canvas">
+
+      <div class="canvas-wrapper">
+        <!-- Game -->
+        <div id="phaser-div"></div>
+        <div class="bottom-canvas">
+          <a href="">
+            <img src="assets/icons/github.svg" alt="GitHub" title="Repositório GitHub">
+          </a>
+        </div>
       </div>
     </div>
 
-
-    <!--Canvas do Game-->
-    <div id="phaser-div"></div>
-
     <footer>
-
-      <div class="container">
-        <div class="desenvolvedora">
-          <img src="/assets/devs/rayssa.jpg" alt="Garota de cabelo cacheado, com óculos de grau marrom, vestindo uma camisa preta do Games4Good">
-
-          <h2>Rayssa Buarque</h2>
-          <div class="socials">
-            <a href="https://www.linkedin.com/in/rayssabuarque/" title="LinkedIn de Rayssa"><img src="/assets/icons/linkedin.svg" alt="LinkedIn"></a>
-            <a href=""><img src="assets/icons/github.svg" alt="Github" title="Github de Rayssa"></a>
-          </div>
-        </div>
-        
-        <div class="textoSobreNos">
-          <h3>Nota das Desenvolvedoras:</h3>
-        
-          <p>👋 Olá Mundo!</p>
-          <br>
-          <p>A Cassa das Lembranças é um jogo desenvolvido por duas alunas do primeiro ano do curso Técnico em
-         Desenvolvimento de Sistemas da Etec Abdias do Nascimento em 2021.<br>
-         <br>Este jogo, desenvolvido durante nossa participação no projeto Games4Good, visa trazer mais visibilidade para a ONG Casa do Zezinho.</p>
-        </div>
-        
-        <div class="desenvolvedora">
-          <img src="" alt="">
-
-          <h2>Evelyn Alves</h2>
-          <div class="socials">
-            <a href="https://www.linkedin.com/in/evelyn-alves-oliveira-07131a221/" title="LinkedIn de Evelyn"><img src="/assets/icons/linkedin.svg" alt="LinkedIn"></a>
-          </div>
-        </div>
-
-      </div>
-      <!-- <div id="container">
-        <h6 id="rodapeTxt">Nota das Desenvolvedoras:</h6>
-        
-        <p>Olá! É um prazer recebê-lo por aqui!</p>
-        <br>
-        <p>Nós somos alunas do curso Técnico em
-         Desenvolvimento de Sistemas da Etec Abdias do Nascimento e esse foi nosso primeiro contato com
-        programação JavaScript!<br> Este jogo foi desenvolvido durante nosso primeiro ano de curso como nossa participação no projeto 
-          Games4Good 2021 e visa trazer mais visibilidade para a ONG Casa do Zezinho.</p>
-      </div>
-
-      <a href="https://www.linkedin.com/in/evelyn-alves-oliveira-07131a221/" target="_blank" title="LinkedIn: Evelyn Alves">
-        <img src="assets/icons/EvelynAlves.jpg" alt="E-mail" />
-      </a>
-  
-      <a href="https://www.linkedin.com/in/rayssabuarque/" target="_blank" title="LinkedIn: Rayssa Buarque">
-        <img src="assets/icons/RayssaBuarque.jpg" alt="E-mail" />
-      </a> -->
+      <p>Website developed by Rayssa Buarque</p>
     </footer>
   </body>
 </html>

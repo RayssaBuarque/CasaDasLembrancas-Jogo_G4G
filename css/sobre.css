@@ -1,0 +1,49 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+  /* border-radius: 30px 30px 0 0; */
+  padding: 25px 30px;
+
+
+  text-align: center;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container > a > img{
+  height: 100px;
+}
+
+.textoSobreNos{
+  width: 650px;
+  text-align: center;
+}
+
+.textoSobreNos > h1{
+    color: #3BCEAC;
+}
+
+.textoSobreNos > h3, .textoSobreNos > p{
+    color: black;
+}
+
+.desenvolvedora{
+  background-color: #EE4266;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.desenvolvedora:hover{
+  background-color: #fa6b8a;
+}
+
+.desenvolvedora > img{
+  height: 275px;
+  width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}

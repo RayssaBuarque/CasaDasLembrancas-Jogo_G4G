@@ -11,111 +11,114 @@
 }
 
 body{
-  background-color: #FFFFFC;
-}
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
-.header{
-  margin-top: 30px;
-  text-align:center;
+  background-color: #fffbef;
 }
 
 h1 {
   font-size: 40px;
   font-family: 'Baloo 2', cursive;
   font-weight: bold;
+  color: white;
 }
 
 h2{
   font-size: 25px;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #F40076;
+  color: white;
 }
 
-/* 
-p{
-  font-family: 'Baloo 2', cursive;
-  color: white;
-} */
-
 /* CANVAS */
+#canvas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas-wrapper{
+  border-radius: 20px;
+  margin: 40px 0; 
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+
+  background-color: #3BCEAC;
+}
+
+.canvas-wrapper:hover{
+  background-color: #66eccd;
+}
+
 #phaser-div{
-  margin: 50px;
   text-align: center; 
 }
 
-/* TEXT FORMAT CANVAS */
-#container{
-  width: 45%;
-  margin: auto;
-  padding: 10px;
+.bottom-canvas{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-/* RODAPÉ */
-footer > .container{
-  background-color: #36827F;
-  border-radius: 30px 30px 0 0;
-  padding: 25px 30px;
+/* NAV-BAR */
+nav{
+  padding: 5px 0;
+  width:100%;
+  background-color: #FFD23F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+}
 
-  text-align: center;
+nav img{
+  height: 70px;
+}
 
+.navegacao{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 30px;
-
-  /* position: fixed;
-  bottom: 0; */
+  margin-right: 20px;
 }
 
-.desenvolvedora{
-  background-color: #F40076;
-  padding: 15px;
-  border-radius: 20px;
-}
-
-.desenvolvedora > img{
-  width: 200px;
-  height: 230px;
-  object-fit: cover;
-  border-radius: 15px;
-  cursor:pointer;
-}
-
-.desenvolvedora > img:hover{
-  filter: grayscale(1);
-}
-
-.socials > a > img{
-  height: 40px;
-  width: 40px;
-}
-
-.desenvolvedora > h2{
-  color:#F6EAF3;
-}
-
-.textoSobreNos{
-  width: 500px;
-}
-
-.textoSobreNos > h3{
-  font-size: 20px;
-  color: #FFFFFC;
-  font-family: 'Baloo 2', cursive;
-}
-
-.textoSobreNos > p{
-  color: #F6EAF3;
-  font-family: 'Roboto', sans-serif;
-}
-
-/* 
-#rodapeTxt{
-  font-family: 'Baloo 2', cursive;
-  font-weight:bold;
-  font-size: 26px;
+.navegacao > a {
   color: white;
-  text-align: center;
-  margin: 35px 25px 0 30px;
-} */
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.navegacao > a:hover{
+  color:#EE4266
+}
+
+#info-projeto{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/* RODAPÉ */
+footer{
+  margin-top: auto;
+  background-color: #FFD23F;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  position:static;
+  bottom: 0;
+}
+
+footer > p{
+  padding: 15px 40px;
+}
