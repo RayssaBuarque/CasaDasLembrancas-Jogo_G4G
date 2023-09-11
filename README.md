@@ -1,5 +1,5 @@
 # Casa das Lembranças - Browser Game 🕹️
-  Jogo desenvolvido junto com minha colega de classe [Evelyn Alves](https://www.linkedin.com/in/evelyn-alves-oliveira-07131a221/) durante nosso primeiro ano no curso Técnico em Desenvolvimento de Sistemas para participação do projeto Games4Good 2021.
+  Jogo desenvolvido junto com minha colega de classe [Evelyn Alves](https://www.linkedin.com/in/evelyn-alves-oliveira-07131a221/) durante nosso primeiro ano no curso Técnico em Desenvolvimento de Sistemas para participação do projeto Games4Good 2021, facilitado pela <img src="https://img.shields.io/badge/oracle-%23F80000.svg?&style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>.
 
   ![Print da tela inicial do jogo](/assets/thumbnail.png)
 
